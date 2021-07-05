@@ -116,15 +116,16 @@ $ sudo nano ~/.bashrc
 ```
 After entering the password, bash file will appear on another terminal window, go to the bottom of the file and type: 
 > source /home/yourDeviceNAme/catkin_ws/devel/setup.bash
- Note that you must change the "yourDeviceName" into the name of the machine you are using to install the packeges.
- press `Ctrl` + `o` to write on bash file.
- press `Ctrl` + `x` to get out
- 
- Now go back to terminal, type:
- ```
- $ source ~/.bashrc
- ```
- To lounch Rviz and gazebo simulator run this:
+
+Note that you must change the "yourDeviceName" into the name of the machine you are using to install the packeges.
+press `Ctrl` + `o` to write on bash file.
+press `Ctrl` + `x` to get out
+
+Now go back to terminal, type:
+```
+$ source ~/.bashrc
+```
+To lounch Rviz and gazebo simulator run this:
 ```
 $ roslaunch robot_arm_pkg check_motors.launch
 ```
